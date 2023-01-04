@@ -1,0 +1,53 @@
+digraph {
+   A [label="Denver International Airport"]
+   B [label="Dallas Fort/Worth"]
+   C [label="Orlando International Airport"]
+   D [label="Salt Lake City International"]
+   E [label="O'Hare International Airport"]
+   F [label="Dane County Regional Airport"]
+
+   A->B [weight=30]
+   B->A [weight=30]   
+
+   A->C [weight=60]
+   C->A [weight=60]  
+
+   A->D [weight=54]
+   D->A [weight=54]  
+
+   A->E [weight=69]
+   E->A [weight=69] 
+
+   A->F [weight=34]
+   F->A [weight=34] 
+
+   B->C [weight=41]
+   C->B [weight=41] 
+
+   B->D [weight=73]
+   D->B [weight=73] 
+
+   B->E [weight=39]
+   E->B [weight=39] 
+
+   B->F [weight=84]
+   F->B [weight=84] 
+
+   C->D [weight=84]
+   D->C [weight=84] 
+
+   C->E [weight=44]
+   E->C [weight=44] 
+
+   C->F [weight=54]
+   F->C [weight=54] 
+
+   D->E [weight=68]
+   E->D [weight=68]
+
+   D->F [weight=84]
+   F->D [weight=84] 
+
+   E->F [weight=108]
+   F->E [weight=108]  
+}
